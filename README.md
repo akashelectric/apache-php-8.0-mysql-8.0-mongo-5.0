@@ -7,6 +7,9 @@
 >mysql-8.0
 
 >mongo-5.0
+
+mongo 5 requires minimum of i3 processor for proper functioning
+
 ### To connect php container with mysql container we have to install mysql-client in the php container by writing the command in the Dockerfile of the php
 
 >RUN apt-get update \
